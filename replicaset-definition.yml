@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: nginx-container
-          image: ngins
+          image: nginx
 replicas: 3
 selector:
   matchLabes:
